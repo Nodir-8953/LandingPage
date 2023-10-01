@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap');   
+.Footer{
+    height: 225px;
+    width: 1440px;
+    background-color: #295093;
+    padding-top: 20px;
+    
+}
+.Footer-top{
+    margin: 0 118px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Footer-title{
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    background: #133C82;
+    border-radius: 5px;
+    padding: 10px;
+}
+.Footer-text{
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+
+.Footer-text .join-tg{
+    background: white;
+    
+    width: 132px;
+    height: 38px;
+    border-radius: 5px;
+    color: #295093;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+.join-tg img{
+    border-radius: 50%;
+    border: none;
+    background-color: #fff;
+    margin-right: 5px;
+}
+
+
+.Footer-line{
+    height: 3px;
+    background: #133C82;
+    width: 1200px;
+    text-align: center;
+    margin: 20px 120px 10px 120px;
+}
+.Footer-bottom{
+    display: flex;
+    align-items: top;
+    width: 1200px;
+    margin-left: 120px;
+
+}
+.Footer-about{
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin-right: 200px;
+}
+.Footer-about span{
+    font-weight: 500;
+}
+.Footer-info{
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    margin-right: 150px;
+}
+.Footer-docs{
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
