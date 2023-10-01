@@ -12,7 +12,7 @@ function Header(){
             <div className="above">
                 <div className="left-side">
                     <div className="logo">NAMANGANLIKLAR24</div>
-                    <p><span>$</span> 10137.2 <span>P</span>138.26 <span>E</span>10988.72</p>
+                    <div className="current"><span>$</span> 10137.2 <span>P</span>138.26 <span>E</span>10988.72</div>
                 </div>
                 <div className="right-side">
                     <div className="search"><img src={search}/></div>

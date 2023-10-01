@@ -16,10 +16,12 @@
     align-items: center;
     padding: 34px 119px;
 }
-.left-side{
+.header .above .left-side{
     display: flex;
-    justify-content: space-between;
-    text-align: center;
+    /* justify-content: space-between; */
+    /* text-align: center; */
+    flex-direction: row;
+    align-items: center;
 }
 .left-side .logo{
     display: flex;
@@ -29,18 +31,18 @@
     background: #fff;
     box-shadow: 0px 2px 6px 0px #CACACA40;
     border-radius: 5%;
-    margin-right: 15px;
+    margin-right: 10px;
     font-size: 28px;
     color: #295091;
 
 }
-.left-side p{
+.left-side .current{
     color: #7A7A7A;
     font-size: 16px;
     font-family: 'Rubik', sans-serif;
     font-weight: 400;
 }
-.left-side p span{
+.left-side .current span{
     font-weight: 500;
     color: #285193;
     margin-left: 10px;
